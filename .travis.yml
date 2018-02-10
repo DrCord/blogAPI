@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: rjfqxx8PNAJc2+yzp5L6jdi/Y/dmSTkIc/b05bqp+FUJ3zw616rZ/BulYTMZ8/CU8zPlWJI1on/VFcsyt7LUsFMyykQLlmDLrv7On89wtjT1kjqOw9zh08INmzGQXION3LdllH7GRa2juUko7ixHZOEeFynZnP1lyw79dYFXYQRmKIoHGkZ6v+DvIdWk9ZBINYt4sRIbHNQl9jrBouIPAqCy3mw6n/wVXURkbcFqU9RU59jKriV5p9Wqb4tXxqwEqtxqrsu+Vys+VN2BxWpOrqao63mIYVo8oDJQIuvHYl3SxiDPCkNCwTi82/58nntAO1Fy6w8bDwf+RnqyrTrDxIm2Krjyug4Hu8wspZNoVe7bfY07hPrEfGU1bmHV2ieBKtSQvb7+oVT7Ea6tVZGF7//B6Ln0eu/9/Gq54JC0sMHdMEJJVhYc9mVNxuscxp3HwhWpls53vSi296GrTpuXwVzzi7jNELjvrf8Q4+5OIgU8vi463Defz3AEzENzhvPtPBcTc8nOm+ag8QS+gdXMy+CJwOndjG7wrtKGsBhcrbk9cFO4Mr9ICpoiUtfdV0XP/vHH1LuA7gfSyiHU3zPhPV3rZLiIyoh/znIVZPXDQ7f8lr8/kXqxRAngy6NAsAwTDQ7oFW8EkC0wJhJYGmZA5HV3wvzM5hwUEvuCaB7wE5A=
-  app: blogAPI
+  app: pure-scrubland-94995
   on:
     repo: DrCord/blogAPI
