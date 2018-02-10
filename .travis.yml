@@ -2,4 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  app: pure-scrubland-94995
+  api_key:
+    secure: k7fyx7+SH5SBwr1l3xINKfew/6vqPg+jnXh+mQLe5OWBpah3Eg8amLvVuo81A+RC0lQ6EELhW2y3WRqCkl6qv9YowDetWjGb/uxZxD/CYVd855nvzLAdid0af4X3k+egkHHA2Mavkv4bclenkuoE2bKh4hIWEThrstkYaRsvB5YKQu8Ws9YK8P0NxPbXl4GUYMBxahM60C4oM/3+jufLiZKfE3dlO7ixG6M5kMH5dK19AATIt5wHiiOGIMiapNBf8GgyB1Vm6et25AL4D/lIIekpS9G8kF3O3tawqh9tkywPLg4GCShfyla9nvqMn2/va6yZJQdrWRHNd/Z4AoQi3KxBBwWGMJbjMilaAuNVgP0DWxwuM+VM1TQ7e7ZGNm1BiiWwS/q/ysZAAuDOHbOYXpygaYFr5+vmddGNtFzuJRev0KTDiZUkYAYAy9U68RL9S7sX6eb895xvx/Gs61Z27CdTttzIoEuv5372vbapVpI39uappoYW0stmIwCpIGjNZfuN13Y9TUQMShemO2bb/1izjFNAmhd04ZL80sS4OoMI+LvB+keE6HOZRQI0MwEG/WVe5pow+vrEreOt2qFqneAEetc3gSihG7HHoznNFNTyYDe14ZDauh3459J3TFlJ0sUhtV6eiDOwyNTHgo7KMyQZL2FKAgGSPrjRePGs6mo=
+  app: blogAPI
+  on:
+    repo: DrCord/blogAPI
