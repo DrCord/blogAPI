@@ -14,7 +14,7 @@ const expect = chai.expect;
 chai.use(chaiHttp);
 
 
-describe('Shopping List', function() {
+describe('BlogPosts', function() {
 
   // Before our tests run, we activate the server. Our `runServer`
   // function returns a promise, and we return the that promise by
@@ -35,7 +35,7 @@ describe('Shopping List', function() {
   });
 
   // test strategy:
-  //   1. make request to `/shopping-list`
+  //   1. make request to route
   //   2. inspect response object and prove has right code and have
   //   right keys in response object.
   it('should list items on GET', function() {
@@ -49,7 +49,6 @@ describe('Shopping List', function() {
         // because we create three items on app load
         expect(res.body.length).to.be.at.least(1);
         // each item should be an object with key/value pairs
-        // for `id`, `name` and `checked`.
         const expectedKeys = ['id', 'title', 'content', 'author'];
         res.body.forEach(function(item) {
           expect(item).to.be.a('object');
