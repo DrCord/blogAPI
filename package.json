@@ -4,6 +4,7 @@
   "description": "blog API with CRUD operations",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha --exit"
   },
   "author": "",
